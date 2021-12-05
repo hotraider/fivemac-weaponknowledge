@@ -8,17 +8,32 @@
         box-sizing: border-box;
     }
     
+    body {
+        text-align: center;
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+     ::-webkit-scrollbar {
+        display: none;
+    }
+    
     .nav {
         display: inline-flex;
         position: relative;
         overflow: hidden;
         max-width: 100%;
-        background-color: #fff;
+        background-color: rgb(0, 0, 0);
         padding: 0 20px;
         border-radius: 40px;
         box-shadow: 0 10px 40px rgba(159, 162, 177, 0.8);
-        top: 5%;
-        left: 30%;
+        top: -5px;
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190826/pngtree-dark-abstract-background-with-overlap-layers-image_305024.jpg);
+        border-radius: 50px;
     }
     
     .nav-item {
@@ -73,10 +88,9 @@
     }
     
     .button1 {
-        /* transform: translateX(-250px) translateZ(-50px) rotateY(-10deg); */
         background-image: url(https://www.webailesi.com/ds-fivem-tabanca-kodlari-4744.png);
-        margin-left: 17%;
-        margin-top: 1%;
+        margin-left: 10px;
+        margin-top: -20px;
         width: 1255px;
         height: 950px;
     }
@@ -84,8 +98,8 @@
     .button2 {
         /* transform: translateX(-250px) translateZ(-50px) rotateY(-10deg); */
         background-image: url(https://www.webailesi.com/ds-fivem-taaaruz-tufegi-kodlari-4747.png);
-        margin-left: 25%;
-        margin-top: 5%;
+        margin-left: 10px;
+        margin-top: -20px;
         width: 1050px;
         height: 700px;
     }
@@ -93,8 +107,8 @@
     .button3 {
         /* transform: translateX(-250px) translateZ(-50px) rotateY(-10deg); */
         background-image: url(https://www.webailesi.com/ds-fivem-yakin-dovus-4743.png);
-        margin-left: 20%;
-        margin-top: 5%;
+        margin-left: 10px;
+        margin-top: -20px;
         width: 1250px;
         height: 700px;
     }
@@ -102,8 +116,8 @@
     .button4 {
         /* transform: translateX(-250px) translateZ(-50px) rotateY(-10deg); */
         background-image: url(https://www.webailesi.com/ds-fivem-bomba-kodlari-4751.png);
-        margin-left: 23%;
-        margin-top: 5%;
+        margin-left: 10px;
+        margin-top: -20px;
         width: 1050px;
         height: 680px;
     }
@@ -111,8 +125,48 @@
     .button5 {
         /* transform: translateX(-250px) translateZ(-50px) rotateY(-10deg); */
         background-image: url(https://www.webailesi.com/ds-fivem-agir-silahlar-4750.png);
-        margin-left: 23%;
-        margin-top: 5%;
+        margin-left: 10px;
+        margin-top: -20px;
         width: 1040px;
         height: 560px;
+    }
+    
+    #b1 {
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #b2 {
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #b3 {
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #b4 {
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #b5 {
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .reklam {
+        /* transform: translateX(-250px) translateZ(-50px) rotateY(-10deg); */
+        background-image: url(https://media.discordapp.net/attachments/627114895183446016/890011932755656704/Eyes_Customers_-_Logo_tasarm_transparan.png);
+        margin-left: 15px;
+        margin-top: -20px;
+        margin-right: -55px;
+        width: 740px;
+        height: 730px;
     }
