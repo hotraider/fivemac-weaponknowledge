@@ -18,10 +18,6 @@
              }
          }
      })
-     $("#yazi").click(function() {
-         let inputValue = $("#yazi").val()
-         return;
-     })
  })
 
  $(document).on('keydown', function() {
@@ -77,107 +73,41 @@
 
      $(".button5").hide();
 
+
+
  });
 
+ var sj1 = false
 
- $(document).ready(function() {
+ function myFunction(v) {
 
-     $("#b1").click(function() {
+     $(".button1").hide();
 
-         $(".button1").toggle(1000);
+     $(".button2").hide();
 
-         $(".button2").hide();
+     $(".button3").hide();
 
-         $(".button4").hide();
+     $(".button4").hide();
 
-         $(".button3").hide();
+     $(".button5").hide();
 
-         $(".button5").hide();
+     $(".reklam").hide();
 
-     });
- });
-
- $(document).ready(function() {
-
-     $("#b2").click(function() {
-
-         console.log("b2")
-
-         $(".button2").toggle(1000);
-
-         $(".button1").hide();
-
-         $(".button4").hide();
-
-         $(".button3").hide();
-
-         $(".button5").hide();
-
-
-
-     });
- });
-
- $(document).ready(function() {
-
-     $("#b3").click(function() {
-
-         console.log("b3")
-
-
-         $(".button3").toggle(1000);
-
-         $(".button4").hide();
-
-         $(".button1").hide();
-
-         $(".button2").hide();
-
-         $(".button5").hide();
-
-
-     });
- });
-
-
- $(document).ready(function() {
-
-     $("#b4").click(function() {
-
-         console.log("b4")
-
-
-         $(".button4").toggle(1000);
-
-         $(".button1").hide();
-
-         $(".button2").hide();
-
-         $(".button3").hide();
-
-         $(".button5").hide();
-
-
-
-     });
- });
-
-
- $(document).ready(function() {
-
-     $("#b5").click(function() {
-
-         $(".button5").toggle(1000);
-
-         $(".button1").hide();
-
-         $(".button4").hide();
-
-
-         $(".button2").hide();
-
-         $(".button3").hide();
-
-
-     });
- });
+     if (v == "#b1") {
+         sj1 = true
+         document.getElementById("b1").style.color = "red";
+         $(".button1").toggle(500);
+     } else if (v == "#b2") {
+         document.getElementById("b2").style.color = "red";
+         $(".button2").toggle(500);
+     } else if (v == "#b3") {
+         document.getElementById("b3").style.color = "red";
+         $(".button3").toggle(500);
+     } else if (v == "#b4") {
+         document.getElementById("b4").style.color = "red";
+         $(".button4").toggle(500);
+     } else if (v == "#b5") {
+         document.getElementById("b5").style.color = "red";
+         $(".button5").toggle(500);
+     }
+ }
