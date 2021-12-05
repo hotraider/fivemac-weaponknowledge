@@ -1,0 +1,118 @@
+    #container {
+        /* background-color: #00000049; */
+        display: block;
+    }
+    
+    @import url("https://fonts.googleapis.com/css?family=DM+Sans:500,700&display=swap");
+    * {
+        box-sizing: border-box;
+    }
+    
+    .nav {
+        display: inline-flex;
+        position: relative;
+        overflow: hidden;
+        max-width: 100%;
+        background-color: #fff;
+        padding: 0 20px;
+        border-radius: 40px;
+        box-shadow: 0 10px 40px rgba(159, 162, 177, 0.8);
+        top: 5%;
+        left: 30%;
+    }
+    
+    .nav-item {
+        color: #83818c;
+        padding: 20px;
+        text-decoration: none;
+        transition: 0.3s;
+        margin: 0 6px;
+        z-index: 1;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 500;
+        position: relative;
+    }
+    
+    .nav-item:before {
+        content: "";
+        position: absolute;
+        bottom: -6px;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background-color: #dfe2ea;
+        border-radius: 8px 8px 0 0;
+        opacity: 0;
+        transition: 0.3s;
+    }
+    
+    .nav-item:not(.is-active):hover:before {
+        opacity: 1;
+        bottom: 0;
+    }
+    
+    .nav-item:not(.is-active):hover {
+        color: #333;
+    }
+    
+    .nav-indicator {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 4px;
+        transition: 0.4s;
+        height: 5px;
+        z-index: 1;
+        border-radius: 8px 8px 0 0;
+    }
+    
+    @media (max-width: 580px) {
+        .nav {
+            overflow: auto;
+        }
+    }
+    
+    .button1 {
+        /* transform: translateX(-250px) translateZ(-50px) rotateY(-10deg); */
+        background-image: url(https://www.webailesi.com/ds-fivem-tabanca-kodlari-4744.png);
+        margin-left: 17%;
+        margin-top: 1%;
+        width: 1255px;
+        height: 950px;
+    }
+    
+    .button2 {
+        /* transform: translateX(-250px) translateZ(-50px) rotateY(-10deg); */
+        background-image: url(https://www.webailesi.com/ds-fivem-taaaruz-tufegi-kodlari-4747.png);
+        margin-left: 25%;
+        margin-top: 5%;
+        width: 1050px;
+        height: 700px;
+    }
+    
+    .button3 {
+        /* transform: translateX(-250px) translateZ(-50px) rotateY(-10deg); */
+        background-image: url(https://www.webailesi.com/ds-fivem-yakin-dovus-4743.png);
+        margin-left: 20%;
+        margin-top: 5%;
+        width: 1250px;
+        height: 700px;
+    }
+    
+    .button4 {
+        /* transform: translateX(-250px) translateZ(-50px) rotateY(-10deg); */
+        background-image: url(https://www.webailesi.com/ds-fivem-bomba-kodlari-4751.png);
+        margin-left: 23%;
+        margin-top: 5%;
+        width: 1050px;
+        height: 680px;
+    }
+    
+    .button5 {
+        /* transform: translateX(-250px) translateZ(-50px) rotateY(-10deg); */
+        background-image: url(https://www.webailesi.com/ds-fivem-agir-silahlar-4750.png);
+        margin-left: 23%;
+        margin-top: 5%;
+        width: 1040px;
+        height: 560px;
+    }
