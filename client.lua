@@ -9,7 +9,7 @@ end)
 
 local SetDisplay = false
 
-RegisterCommand("menu", function(source, args)
+RegisterCommand("menu", function(source)
     SetDisplay(true, true)
 end)
 
